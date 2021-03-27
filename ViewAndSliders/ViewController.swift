@@ -30,9 +30,9 @@ class ViewController: UIViewController {
         mainView.backgroundColor = .init(red: CGFloat(redSlider.value), green: CGFloat(greenSlider.value), blue: CGFloat(blueSlider.value), alpha: 1)
         
         //Label
-        redSliderValueLabel.text = ""
-        greenSliderValueLabel.text = ""
-        blueSliderValueLabel.text = ""
+        redSliderValueLabel.text = String(format: "%.2f", redSlider.value)
+        greenSliderValueLabel.text = String(format: "%.2f", greenSlider.value)
+        blueSliderValueLabel.text = String(format: "%.2f",  blueSlider.value)
         
         // Slider
         redSlider.minimumTrackTintColor = .red
