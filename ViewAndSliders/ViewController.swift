@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         // View
-        mainView.layer.cornerRadius = 20
+        mainView.layer.cornerRadius = mainView.frame.height / 7
         mainView.backgroundColor = .init(red: CGFloat(redSlider.value), green: CGFloat(greenSlider.value), blue: CGFloat(blueSlider.value), alpha: 1)
         
         //Label
