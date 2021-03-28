@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         
         // View
         mainView.layer.cornerRadius = mainView.frame.height / 7
-        mainView.backgroundColor = .init(red: CGFloat(redSlider.value), green: CGFloat(greenSlider.value), blue: CGFloat(blueSlider.value), alpha: 1)
+        changeViewBackgroundColor()
         
         //Label
         redSliderValueLabel.text = String(format: "%.2f", redSlider.value)
@@ -56,7 +56,11 @@ class ViewController: UIViewController {
     
     //MARK: - Private Methods
     private func changeViewBackgroundColor() {
-        mainView.backgroundColor = .init(red: CGFloat(redSlider.value), green: CGFloat(greenSlider.value), blue: CGFloat(blueSlider.value), alpha: 1)
+        mainView.backgroundColor = UIColor(
+            red: CGFloat(redSlider.value),
+            green: CGFloat(greenSlider.value),
+            blue: CGFloat(blueSlider.value),
+            alpha: 1)
     }
     
 }
