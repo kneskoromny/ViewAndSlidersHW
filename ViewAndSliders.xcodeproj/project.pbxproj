@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		F75116B9260E330400DD9133 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75116B8260E330400DD9133 /* AppDelegate.swift */; };
 		F75116BB260E330400DD9133 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75116BA260E330400DD9133 /* SceneDelegate.swift */; };
-		F75116BD260E330400DD9133 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75116BC260E330400DD9133 /* ViewController.swift */; };
+		F75116BD260E330400DD9133 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75116BC260E330400DD9133 /* SettingsViewController.swift */; };
 		F75116C0260E330400DD9133 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F75116BE260E330400DD9133 /* Main.storyboard */; };
 		F75116C2260E330600DD9133 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F75116C1260E330600DD9133 /* Assets.xcassets */; };
 		F75116C5260E330600DD9133 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F75116C3260E330600DD9133 /* LaunchScreen.storyboard */; };
+		F7B02BDD26203F84002814A0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B02BDC26203F84002814A0 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F75116B5260E330400DD9133 /* ViewAndSliders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewAndSliders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F75116B8260E330400DD9133 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F75116BA260E330400DD9133 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F75116BC260E330400DD9133 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F75116BC260E330400DD9133 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		F75116BF260E330400DD9133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F75116C1260E330600DD9133 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F75116C4260E330600DD9133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F75116C6260E330600DD9133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7B02BDC26203F84002814A0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				F75116B8260E330400DD9133 /* AppDelegate.swift */,
 				F75116BA260E330400DD9133 /* SceneDelegate.swift */,
-				F75116BC260E330400DD9133 /* ViewController.swift */,
+				F7B02BDC26203F84002814A0 /* MainViewController.swift */,
+				F75116BC260E330400DD9133 /* SettingsViewController.swift */,
 				F75116BE260E330400DD9133 /* Main.storyboard */,
 				F75116C1260E330600DD9133 /* Assets.xcassets */,
 				F75116C3260E330600DD9133 /* LaunchScreen.storyboard */,
@@ -137,9 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F75116BD260E330400DD9133 /* ViewController.swift in Sources */,
+				F75116BD260E330400DD9133 /* SettingsViewController.swift in Sources */,
 				F75116B9260E330400DD9133 /* AppDelegate.swift in Sources */,
 				F75116BB260E330400DD9133 /* SceneDelegate.swift in Sources */,
+				F7B02BDD26203F84002814A0 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
