@@ -61,13 +61,7 @@ class SettingsViewController: UIViewController, UITextFieldDelegate {
         greenSliderTF.text = greenSliderValueLabel.text
         blueSliderTF.text = blueSliderValueLabel.text
         
-        redSliderTF.delegate = self
-        greenSliderTF.delegate = self
-        blueSliderTF.delegate = self
-        
         addToolBarToTextFields(for: redSliderTF, greenSliderTF, blueSliderTF)
-        
-        
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -108,7 +102,7 @@ class SettingsViewController: UIViewController, UITextFieldDelegate {
             redSlider.value = value
             redSliderValueLabel.text = redSliderTF.text
             changeViewBackgroundColor()
-            view.endEditing(true)
+            
         }
         if let value = Float(greenSliderTF.text!) {
             greenSlider.value = value
@@ -121,6 +115,7 @@ class SettingsViewController: UIViewController, UITextFieldDelegate {
             changeViewBackgroundColor()
         }
         
+        view.endEditing(true)
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
